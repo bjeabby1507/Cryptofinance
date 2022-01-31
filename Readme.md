@@ -19,7 +19,7 @@ E[R] = 0xp + 3q^3 + 2pq^2 + 2pq^2 + 0p^2q
 
 E[H]= 1p + 3q^3 + 2pq^2 + 2pq^2 + 2p^2q
 
-rendement = E[R]/E[H]  <=> q> 2-1
+rendement = E[R]/E[H]  <=> q>  $\sqrt{2-1}$
 
 <p align="center"> <img src="Captures/1+2.png"> </p>
 

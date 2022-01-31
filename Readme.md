@@ -45,7 +45,9 @@ Is it always profitable?
 <p align="center"> <img src="Captures/selfishMining.png"> </p>
 
 Answers :
+
 Experimental : minimum Esperance de gain, Hashrate[idx[1]] = 0.33
+
 Simulated probability : 0.3287980174451271
 
 It is not always profitable, it will be profitable for the miner if he own at least 33% of the power network.
@@ -54,7 +56,7 @@ It is not always profitable, it will be profitable for the miner if he own at le
 
 ## Double spendings
 
-This attack consists of mining secretly until the attack reaches a blockchain with a length greater than the network chain , the transaction tx that was previously on the blockxahin disappear as the previous official block are discareded. The attacker has succed to reversed the trasbcation to ensure to increase its return.
+This attack consists of mining secretly until the attack reaches a blockchain with a length greater than the network chain , the transaction tx that was previously on the blockcahin disappear as the previous official block are discareded. The attacker has succed to reversed the trasbcation to ensure to increase its return.
 
 <p align="center"> <img src="Captures/doubleSpending.png"> </p>
 Answers:
@@ -63,4 +65,4 @@ Experimental : minimum Esperance de gain  z=10 , A=3, Hashrate[idx[1]] = 0.44
 Experimental : minimum Esperance de gain z=6 , A=3, Hashrate[idx[1]] = 0.43
 Experimental : minimum Esperance de gain z=6 , A=10, Hashrate[idx[1]] = 0.46
 
-It will be profitable for the miner if he own at least 43% of the power network, more there it need confirmations more it's profitable.
+It will be profitable for the miner if he owns at least 43% of the power network, more there it need confirmations more it's profitable.

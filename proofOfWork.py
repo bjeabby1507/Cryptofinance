@@ -36,8 +36,8 @@ def rep(N,T):
         element = str(randrange(0,100000))
         total_time +=time_hash(element,T)
     moyenne = total_time/N
-    #print("N (Nb de blocs):", N,"\nR (Target) :", T,"\nP (moyenne) : ",moyenne )   
-
+    print("N (Nb de blocs):", N,"\nR (Target) :", T,"\nP (moyenne) : ",moyenne )   
+"""
 root = tkinter.Tk()
 root.wm_title("Proof of Work")
 fig = Figure(figsize=(5, 4), dpi=100)
@@ -73,7 +73,8 @@ def Graph(event):
 N = tkinter.Scale(master=root, from_=100, to=120, orient=tkinter.HORIZONTAL, length=200,label=" t : difficulty / target", command=Graph)
 N.pack(side=tkinter.BOTTOM)
 
-tkinter.mainloop()
+tkinter.mainloop()"""
+
 if __name__ == "__main__":
     T= 4 # difficulty / target
-    #rep(100,T)
+    rep(100,T)
